@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11759" systemVersion="16C67" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11759" systemVersion="16C67" minimumToolsVersion="Automatic" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
     <entity name="MyEntity" representedClassName="MyEntity" syncable="YES" codeGenerationType="class">
         <attribute name="myAttribute" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="relationship" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="MyEntity" syncable="YES"/>
+    </entity>
+    <entity name="MyOtherEntity" representedClassName="MyOtherEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="myOtherAttribute" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="relationship" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="MyEntity" syncable="YES"/>
     </entity>
     <elements>
-        <element name="MyEntity" positionX="-54" positionY="-9" width="128" height="60"/>
+        <element name="MyEntity" positionX="-54" positionY="-9" width="128" height="75"/>
+        <element name="MyOtherEntity" positionX="-27" positionY="27" width="128" height="75"/>
     </elements>
 </model>
