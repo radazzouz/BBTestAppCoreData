@@ -15,6 +15,10 @@
 		835AE43C1E29A3E800B3B651 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 835AE43B1E29A3E800B3B651 /* Assets.xcassets */; };
 		835AE43F1E29A3E800B3B651 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 835AE43D1E29A3E800B3B651 /* LaunchScreen.storyboard */; };
 		835AE44A1E29A3E800B3B651 /* BBTestAppCoreDataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 835AE4491E29A3E800B3B651 /* BBTestAppCoreDataTests.m */; };
+		843F162A1E41174E00107101 /* MyEntity+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 843F16231E41174E00107101 /* MyEntity+CoreDataClass.m */; };
+		843F162B1E41174E00107101 /* MyEntity+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 843F16251E41174E00107101 /* MyEntity+CoreDataProperties.m */; };
+		843F162C1E41174E00107101 /* MyOtherEntity+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 843F16271E41174E00107101 /* MyOtherEntity+CoreDataClass.m */; };
+		843F162D1E41174E00107101 /* MyOtherEntity+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 843F16291E41174E00107101 /* MyOtherEntity+CoreDataProperties.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +46,14 @@
 		835AE4451E29A3E800B3B651 /* BBTestAppCoreDataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BBTestAppCoreDataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		835AE4491E29A3E800B3B651 /* BBTestAppCoreDataTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBTestAppCoreDataTests.m; sourceTree = "<group>"; };
 		835AE44B1E29A3E800B3B651 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		843F16221E41174E00107101 /* MyEntity+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MyEntity+CoreDataClass.h"; sourceTree = "<group>"; };
+		843F16231E41174E00107101 /* MyEntity+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MyEntity+CoreDataClass.m"; sourceTree = "<group>"; };
+		843F16241E41174E00107101 /* MyEntity+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MyEntity+CoreDataProperties.h"; sourceTree = "<group>"; };
+		843F16251E41174E00107101 /* MyEntity+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MyEntity+CoreDataProperties.m"; sourceTree = "<group>"; };
+		843F16261E41174E00107101 /* MyOtherEntity+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MyOtherEntity+CoreDataClass.h"; sourceTree = "<group>"; };
+		843F16271E41174E00107101 /* MyOtherEntity+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MyOtherEntity+CoreDataClass.m"; sourceTree = "<group>"; };
+		843F16281E41174E00107101 /* MyOtherEntity+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MyOtherEntity+CoreDataProperties.h"; sourceTree = "<group>"; };
+		843F16291E41174E00107101 /* MyOtherEntity+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MyOtherEntity+CoreDataProperties.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +77,14 @@
 		835AE4201E29A3E700B3B651 = {
 			isa = PBXGroup;
 			children = (
+				843F16221E41174E00107101 /* MyEntity+CoreDataClass.h */,
+				843F16231E41174E00107101 /* MyEntity+CoreDataClass.m */,
+				843F16241E41174E00107101 /* MyEntity+CoreDataProperties.h */,
+				843F16251E41174E00107101 /* MyEntity+CoreDataProperties.m */,
+				843F16261E41174E00107101 /* MyOtherEntity+CoreDataClass.h */,
+				843F16271E41174E00107101 /* MyOtherEntity+CoreDataClass.m */,
+				843F16281E41174E00107101 /* MyOtherEntity+CoreDataProperties.h */,
+				843F16291E41174E00107101 /* MyOtherEntity+CoreDataProperties.m */,
 				835AE42B1E29A3E800B3B651 /* BBTestAppCoreData */,
 				835AE4481E29A3E800B3B651 /* BBTestAppCoreDataTests */,
 				835AE42A1E29A3E800B3B651 /* Products */,
@@ -218,10 +238,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				843F162A1E41174E00107101 /* MyEntity+CoreDataClass.m in Sources */,
+				843F162D1E41174E00107101 /* MyOtherEntity+CoreDataProperties.m in Sources */,
 				835AE4341E29A3E800B3B651 /* ViewController.m in Sources */,
+				843F162B1E41174E00107101 /* MyEntity+CoreDataProperties.m in Sources */,
 				835AE4311E29A3E800B3B651 /* AppDelegate.m in Sources */,
 				835AE43A1E29A3E800B3B651 /* BBTestAppCoreData.xcdatamodeld in Sources */,
 				835AE42E1E29A3E800B3B651 /* main.m in Sources */,
+				843F162C1E41174E00107101 /* MyOtherEntity+CoreDataClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +446,7 @@
 				835AE4501E29A3E800B3B651 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		835AE4511E29A3E800B3B651 /* Build configuration list for PBXNativeTarget "BBTestAppCoreDataTests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +455,7 @@
 				835AE4531E29A3E800B3B651 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
